@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página con Botones</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #f1f1f1;
+    }
+    
+    .button-container {
+      margin-top: 20px;
+    }
+    
+    .button-container button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #4CAF50;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="section1" class="section">
+    <h1>Sección 1</h1>
+    <div class="button-container">
+      <button onclick="scrollToSection('section2')">Siguiente</button>
+    </div>
+  </div>
+
+  <div id="section2" class="section">
+    <h1>Sección 2</h1>
+    <div class="button-container">
+      <button onclick="scrollToSection('section3')">Siguiente</button>
+    </div>
+  </div>
+
+  <div id="section3" class="section">
+    <h1>Sección 3</h1>
+    <div class="button-container">
+      <button onclick="scrollToSection('section1')">Volver al inicio</button>
+    </div>
+  </div>
+
+  <script>
+    // Función para desplazarse a una sección específica
+    function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
