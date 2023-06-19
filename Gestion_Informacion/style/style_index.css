@@ -16,6 +16,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 0px;
+  position: fixed;
+  top: 50PX;
+  right: 2px;
+  bottom: ;
+  background-color: #f0f0f0;
+  padding: 25px;
+}
+
+.content {
+  margin-left: 5px; /* Ajusta este valor según el ancho de la barra lateral */
+  padding: 20px;
+}
+
 .Titulo {
   position: relative;
   height: 100px;
