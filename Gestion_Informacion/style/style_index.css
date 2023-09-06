@@ -522,7 +522,7 @@ background-color:#0d0d0d;
 .horario h2 {
     /*Alinear el texto en el centro*/
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     border: #00663D;
     /*text-shadow: 1px 1px 1px #00663D, -1px -1px 1px #00663D ;*/
 
@@ -531,6 +531,8 @@ background-color:#0d0d0d;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
+
+
 
 
 .horario-txt {
