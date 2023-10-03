@@ -483,7 +483,8 @@ background-color:#0d0d0d;
 .horario h3 {
     font-size: 20px;
     font-weight: 500;
-    color: #ffffff;
+    color: #06D28A;
+    border: #00663D;
     padding: 20px;
 
 }
@@ -498,12 +499,14 @@ background-color:#0d0d0d;
     text-align: center;
     font-size: 60px;
     border: #00663D;
+    margin: 20px 10px;
     /*text-shadow: 1px 1px 1px #00663D, -1px -1px 1px #00663D ;*/
 
     color: #06D28A;
     font-weight: 1000;
     text-transform: uppercase;
     margin-bottom: 50px;
+
 }
 
 

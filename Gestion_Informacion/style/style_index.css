@@ -21,18 +21,23 @@ body {
 }
 
 .sidebar {
-  width: 0px;
+  width: 85px; /* Ancho deseado para la barra lateral */
   position: fixed;
-  top: 50PX;
+  top: 50px;
   right: 2px;
-  bottom: ;
+  bottom: ; /* Añadimos 0 para ocupar todo el espacio vertical disponible */
   background-color: #f0f0f0;
-  padding: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.content {
-  margin-left: 5px; /* Ajusta este valor según el ancho de la barra lateral */
-  padding: 20px;
+/* Opcionalmente, puedes aplicar estilos adicionales al contenido dentro de la barra lateral */
+.sidebar img {
+  max-width: 210%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+  height: auto;
 }
 
 .Titulo {
@@ -111,8 +116,8 @@ body {
 }
 
 .menu-1 {
-    margin-right: 180px;
-
+    margin-right: 50px;
+    font-size: 20px;
 }
 
 .menu-2 {
@@ -533,8 +538,6 @@ background-color:#0d0d0d;
 }
 
 
-
-
 .horario-txt {
 
     display: flex;
@@ -543,6 +546,8 @@ background-color:#0d0d0d;
     justify-content: baseline;
 
 }
+
+
 
 .txt {
     color: #ffffff;
