@@ -1,0 +1,1 @@
+Este es un sistema de Gestion de informacion desarrollado Manuel Forero y Alex Nocua para la universidad de cundinamarca con el fin de brindar un apartado web para la informacion de los resultados de las olimpiadas matematicas en la Provincia de Ubaté 
